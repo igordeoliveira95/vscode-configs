@@ -3,7 +3,6 @@
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
     "editor.lineHeight": 1.8,
-    "editor.rulers": [80, 120],
     "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
     "editor.semanticHighlighting.enabled": true,
@@ -11,20 +10,17 @@
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "editor.formatOnSave": true,
-
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
     // Workbench
-    "workbench.iconTheme": "symbols",
-    "workbench.colorTheme": "Min Dark",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.labelFormat": "short",
     "workbench.layoutControl.enabled": false,
-
+    "workbench.tree.enableStickyScroll": false,
     // Terminal
     "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.fontSize": 14,
-
     // Others
-    "symbols.hidesExplorerArrows": false,
     "explorer.compactFolders": false,
     "breadcrumbs.enabled": false,
     "window.commandCenter": false,
