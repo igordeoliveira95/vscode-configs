@@ -2,7 +2,7 @@
     // Editor
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
-    "editor.lineHeight": 1.8,
+    "editor.lineHeight": 1.5,
     "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
     "editor.semanticHighlighting.enabled": true,
@@ -12,16 +12,29 @@
     "editor.formatOnSave": true,
     "editor.stickyScroll.enabled": false,
     "editor.stickyScroll.scrollWithEditor": false,
+    "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
     // Workbench
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.labelFormat": "short",
     "workbench.layoutControl.enabled": false,
     "workbench.tree.enableStickyScroll": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Illusion Bordered",
     // Terminal
     "terminal.integrated.fontFamily": "JetBrains Mono",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 12,
     // Others
     "explorer.compactFolders": false,
     "breadcrumbs.enabled": false,
     "window.commandCenter": false,
+
+    // Typescript Stuff
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
